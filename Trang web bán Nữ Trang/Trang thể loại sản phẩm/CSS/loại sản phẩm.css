@@ -1,0 +1,67 @@
+.menu{    
+    height: 50px;
+    width: 100%;
+}
+
+ul.list_menu li a {
+    text-decoration: none;
+    text-align: center;
+    color: #b3b1b159;
+    
+    
+}
+ul.list_menu li {
+    float: left;
+    margin: 7px;    
+    padding: 1px;
+    
+}
+ul.list_menu {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    list-style: none;
+    width: 50%;
+    margin: 0 auto;
+    line-height: 45px;
+    float: left;
+}
+ul.product_list {
+    
+    
+    list-style: none;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+ul.product_list li img {
+    
+    border: 1px solid #000;
+    margin: 5px;
+    
+}
+ul.product_list li {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    align-items: flex-end;
+
+}
+/* Iphone 5/SE*/
+@media only screen and (min-width:320px) and (max-width:800px){
+    ul.product_list li{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media screen and (min-width:600) and (max-width:800) {
+    .product_list li{
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+}

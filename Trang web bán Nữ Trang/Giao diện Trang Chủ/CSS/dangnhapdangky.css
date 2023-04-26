@@ -1,0 +1,11 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.formdangnhap{
+    display: flex;
+    background-color: blue;
+    height: 300px;
+    justify-content: center;
+}
+

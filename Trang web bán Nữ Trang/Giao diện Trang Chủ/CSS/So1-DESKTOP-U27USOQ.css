@@ -1,0 +1,701 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.duongvien{
+    border-bottom: 1px solid white;
+}
+.fontchu{
+    height: 10px;
+    font-size: 0.7rem;
+    color: white;
+    position: relative;
+}
+
+.name{
+    color: white;
+    text-align: center;
+}
+.fontlogo{
+    color: white;
+    font-size: 65px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#xoachan a{
+    text-decoration: none
+}
+.nav-item ml-1 a{
+    text-decoration: none;
+}
+.khungmucluc{
+    text-align: center;
+    width: 100%;
+}
+
+.mucluc
+{
+    font-weight: 400;
+    color: #000;
+    line-height: 75px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+.vitridango{
+    margin-left: 150px;
+}
+.linkall{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-indent: -9999px;
+}
+
+.icon{
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    background-size: 100%;
+}
+.chudangnhap{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #fff;
+    position: ab;
+}
+.Hop-logo{
+    width: 100%;
+    height: auto;
+    background-color: #1c1a26;
+}
+.Hoptrong-logo{
+    padding: 0px 90px 12px 50px;
+    text-align: center;
+}
+.logo-wrap{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+}
+.logo{
+    margin: 0px 0px 8px;
+    font-size: 55px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    
+}
+.block-search{
+    width: 300px;
+    right: 20px;
+    top: 85px;
+    padding: 0px;
+    position: absolute;
+    z-index: 31;
+    left: auto;
+}
+.block-title{
+    display: none;
+}
+
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-right: 30px;
+  }
+.container-1 input#search{
+    width: 280px;
+    height: 40px;
+    background: #e1e3e9;
+    border: 1px;
+    font-size: 13pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease; /*Phần này tạo khoảng thời gian hiện thị*/
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+  }
+ .container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 10px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+  .container-1 input#search:hover, .container-1 input#search:focus, .container-1 input#search:active{ /*Di chuột vào sẽ hiển thị phông trắng*/
+    outline:none;
+    background: #ffffff;
+  }
+
+  .container-3{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+    margin-right: 30px;
+  }
+  .container-3 input#search{
+    width: 280px;
+    height: 40px;
+    background: #e1e3e9;
+    border: 1px;
+    font-size: 13pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-transition: background .55s ease; /*Phần này tạo khoảng thời gian hiện thị*/
+    -moz-transition: background .55s ease;
+    -ms-transition: background .55s ease;
+    -o-transition: background .55s ease;
+    transition: background .55s ease;
+  }
+ .container-3 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 17px;
+    margin-top: 10px;
+    z-index: 1;
+    color: #4f5b66;
+  }
+  .container-3 input#search:hover, .container-3 input#search:focus, .container-3 input#search:active{ /*Di chuột vào sẽ hiển thị phông trắng*/
+    outline:none;
+    background: #ffffff;
+  }
+  .bg-darks {
+    background-color: #1c1a26 !important;
+  }
+
+
+  #vetrangchu{
+    color: #909090;
+    font-size: 13px;
+    margin-left: 150px;
+    font-style: normal;
+    text-decoration: none;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+ }
+
+ .dropdown-menu{
+    display: none;
+    position: absolute;
+    background-color: #f5f5f5;
+    z-index: 1;
+    list-style: none;
+ }
+ .dropdown:hover .dropdown-menu {
+    display:inline-block;
+ }
+ .fontdanhmuc{
+     font-size: 10px;
+     color:black;
+ }
+ #xemtatca{
+     color: red;
+     font-size: 15px;
+ }
+ .dropdown-items {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: #fff;
+    border: 0;
+    list-style: none;
+  }
+  .containers {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+.Banner-daychuyen{
+    position: relative;
+}
+.banner-img a img{
+    width: 100%;
+}
+.cms-element{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+}
+.ngancachnhan-daychuyen{
+    border: #fff;
+    height: 60px;
+}
+.ngancachbongtai-vongtay{
+    border: #fff;
+    height: 60px;
+}
+.Nam-treem{
+    margin-bottom: 70px;
+    margin: 0px -15px;
+    position: relative;
+    text-align: center;
+    clear: both;
+}
+.Trangsucnam{
+    width: 50%;
+    position: relative;
+    float: left;
+}
+
+.trangsuctreem{
+    width: 50%;
+    position: relative;
+    float: right;
+}
+.SPyeuthich{
+    padding-bottom: 15px;
+    padding-top: 20px;
+    position: relative;
+    text-align: center;
+    clear: both;
+}.border-explore{
+    float: left;
+    height: 1px;
+    position:absolute;
+    top: 29px;
+    width: 100%;
+}
+.span-text{
+    display: inline-block;
+    padding: 0 35px 13px;
+    color: #414042;
+    font-weight: 400;
+    font-size: 35px;
+    text-transform: uppercase;
+    position: relative;
+}
+.HopSP{
+    width: auto;
+    display: flex;
+    justify-content: center ;
+    height: 260px;
+}
+.hop-content{
+    width: 295px;
+    text-align: center;
+}
+#duongbien{
+    border-top: 1px solid black;
+}
+.HopSP2{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    height: 250px;
+}
+.page-footer{
+    height: 500px;
+    margin-top: 40px;
+    background-color: #1c1a26;
+    
+}
+.footer content{
+    padding: 0px 20px;
+    flex-direction: column;
+    border-bottom: solid white;
+}
+.footer-top{
+    padding: 20px 0 32px;
+    display: flex;
+    justify-content: center;
+}
+.footer-social-network{
+    width: 20.6%;
+    border-right: solid white 0.1px;
+    display: flex;
+    align-items: center;
+    padding-top: 35px;
+    margin-right: 3%;
+    position: relative;
+
+}
+.social-icon-clearer{
+    justify-content: flex-start;
+    min-height: 47px;
+    display: flex;
+    width: 100%;
+
+}
+.phanemail{
+    width: 27%;
+    padding-left: 0;
+    margin-left: 19px;
+    border-right: solid white 0.1px;
+}
+.noidung1{
+    box-sizing: border-box;
+}
+.label1{
+    position: relative;
+    padding-right: 8%;
+    margin-bottom: 10px;
+    line-height: 20px;
+    display: block;
+    width: auto;
+    height: auto;
+    color: #fff;
+}
+.label1 span{
+    color: rgb(8, 165, 8);
+}
+.field_newsletter{
+    width: 57.5%;
+    margin-right: 1%;
+}
+.actions{
+    width: 26%;
+}
+.footer-country{
+    width: 26%;
+    padding-left: .5%;
+}
+.country_region{
+    margin-top: 22px;
+    width: 71px;
+    height: 40px;
+    background-size: 100%;
+    vertical-align: middle;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEcAAAAmCAQAA)
+}
+.footer-middle{
+    margin-bottom: 30px;
+    clear: both;
+}
+.footer-content1{
+    padding: 0px 20px;
+    flex-direction: column;
+    text-align: left;
+}.phantrai{
+    width: 26%;
+    color: white;
+    margin-bottom: 30px;
+    border-right: solid white 0.1px;
+}
+.footer-bot1{
+    padding: 20px 0 32px;
+    display: flex;
+    justify-content: center;
+}
+.phanphai{
+    color: white;
+    margin-left: 100px;
+}
+.mauchu{
+    color: #fff;
+}
+.sanpham{
+    display: flex;
+    justify-content: center;
+}
+.sanpham a{
+    text-decoration: none;
+}
+.jilly-cate-name{
+    font-weight: 100;
+    display: block;
+    text-align: center;
+    color: #767676;
+    
+}
+.container-2 video{
+    width: 100%;
+    height: auto;
+    
+}
+.reponsive{
+    width: 100%;
+}
+.banner-inner{
+    display: flex;
+    justify-content: center;
+    clear: both;
+}
+
+.banner-image{
+    position: relative;
+    width: 20%;
+    float: left;
+    display: flex;
+    justify-content: end;
+}
+.banner_content{
+    position: relative;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+
+/* Dành cho Tablet width >= 740px and width < 1024px*/
+@media only screen and (min-width: 740px) and (max-width: 1270px){
+    .container img{
+        width: 100%;
+        
+    }
+    .container-1 input#search{
+        display: none;
+    }
+    .container-1 .icon{
+        display: none;
+    }
+    
+    .thanhsanpham{
+        width: 100%;
+    }
+    .daychuyen_1{
+        width: 100%;
+    }
+    .containers img{
+        width: 100%;
+    }
+    .nav-item{
+        font-size: 7px;
+    }
+    .container img{
+        width: 100%;
+        
+    }
+    .container-1 input#search{
+        display: none;
+    }
+    .container-1 .icon{
+        display: none;
+    }
+    .thanhsanpham{
+        width: 100%;
+    }
+    .daychuyen_1{
+        width: 100%;
+    }
+    .containers img{
+        width: 100%;
+    }
+    .nav-item1 img{
+        display: none;
+        font-size: 10px;
+    }
+    .nav-item2 img{
+        display: none;
+        font-size: 10px;
+    }
+    .nav-item3 {
+        font-size: 15px;
+    }
+    .nav-item4 span{
+        display: none;
+    }
+    .nav-item5 span{
+        font-size: 10px;
+        display: none;
+    }
+    .logo-wrap{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .containernhan img{
+        width: 100%;
+    }
+    .banner-image{
+        display: none;
+    }
+    .Trangsucnam{
+        display: none;
+    }
+    .trangsuctreem{
+        display: none;
+    }
+    .SPyeuthich span{
+        font-size: 28px;
+    }
+    .hop-content img{
+        width: 100%;
+    }
+    .hop-content1{
+        display: none;
+    }
+    .hop-content5{
+        display: none;
+    }
+    .page-footer{
+        height: auto;
+    }
+    .Phantrai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer-content1 .footer-bot1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer-social-network{
+        width: 30%;
+    }
+    .phanemail{
+        width: 60%;
+    }
+    .box2 .container-1 input{
+        display: none;
+    }
+}
+/* Iphone 5/SE*/
+@media only screen and (min-width:320px) and (max-width:740px){
+    #thanhcongcu{
+        height: 50px;
+    }
+    .container img{
+        width: 100%;
+        
+    }
+    .container-1 input#search{
+        display: none;
+    }
+    .container-1 .icon{
+        display: none;
+    }
+    .thanhsanpham{
+        width: 100%;
+    }
+    .daychuyen_1{
+        width: 100%;
+    }
+    .containers img{
+        width: 100%;
+    }
+    .nav-item{
+        font-size: 7px;
+    }
+    .container img{
+        width: 100%;
+        
+    }
+    .container-1 input#search{
+        display: none;
+    }
+    .container-1 .icon{
+        display: none;
+    }
+    .thanhsanpham{
+        width: 100%;
+    }
+    .daychuyen_1{
+        width: 100%;
+    }
+    .containers img{
+        width: 100%;
+    }
+    .nav-item4{
+        display: none;
+    }
+    
+    .logo-wrap i{
+        display: none;
+    }
+    .logo-wrap{
+        display: flex;
+        justify-content: flex-start;
+        position: relative;
+        box-sizing: border-box;
+        flex-direction: column;
+    }
+    .containernhan img{
+        width: 100%;
+    }
+    .banner-image{
+        display: none;
+    }
+    .Trangsucnam{
+        display: none;
+    }
+    .trangsuctreem{
+        display: none;
+    }
+    .SPyeuthich span{
+        font-size: 20px;
+    }
+    .phanemail{
+        display: none;
+    }
+    .footer-top{
+        display: none;
+    }
+    .hop-content img{
+        width: 100%;
+    }
+    .HopSP{
+        display: none;
+    }
+    .HopSP2{
+        display: none;
+    }
+    .SPyeuthich{
+        display: none;
+    }
+    .hop-content1{
+        display: none;
+    }
+    .hop-content2{
+        display: none;
+    }
+    .hop-content5{
+        display: none;
+    }
+    .hop-content6{
+        display: none;
+    }
+    .page-footer{
+        height: auto;
+    }
+    .Phantrai{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .footer-content1 .footer-bot1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-social-network{
+        width: 30%;
+    }
+    .phanemail{
+        width: 60%;
+    }
+    
+}
